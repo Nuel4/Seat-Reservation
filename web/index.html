@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .backimg{
+                background-image: url(pic/plane3.png);
+                background-color: gray;
+                height: 593px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            .hero_text{
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body style="padding:0; margin: 0">
+<!--        <table style="background:skyblue">
+            <th align="center">
+                <tr> Home</tr>
+            <tr> About Us</tr>
+            <tr> Contact  Us</tr>
+            <tr> Address Us</tr>
+            <tr>  Login</tr>
+            </th>
+        </table>-->
+<div class="container" style="display: flex; justify-content: space-between; align-items: center; background-color:skyblue; padding:10px 2rem;">
+    <div style="width:10%"><img src="pic/logh.jpg" style="width:100%"></div>
+    <ul style="list-style-type:none; margin:0; display:flex; justify-content: space-between; width:40%; margin-right: 0px;"  >
+        <li><a href="home.jsp">Home</a></li>
+    <li><a href="about.jsp">About Us</a></li>
+        <li><a href="contact.jsp">Contact Us</a></li>
+        <li><a href="address.jsp"> Address</a></li>
+        <li class="button" style="background: yellow; padding:3px 15px; border-radius:5px"><a href="login1.jsp"  style="color:#000; text-decoration: none;">Login</a></li>
+        <li class="button" style="background: yellow; padding:3px 15px; border-radius:5px"><a href="register.jsp" style="color:#000; text-decoration: none;">Sign up</a></li>
+    </ul>
+</div>
+ 
+    <div class="backimg" style="position: relative">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background: rgba(0,0,0,.5)"></div>
+        <div class="hero_text">
+       
+        <h1 style="font-size: 50px; color:white; align:left; margin: 0; line-height: 1; color: yellow;">
+           
+            Welcome to bookcheap flight.com
+        </h1>
+         <p style="font-size: 18px; color:white; align:left;">It promises to be a good experience getting your flight from us.</p>
+         </div></div>
+ 
+    </body>
+</html>
